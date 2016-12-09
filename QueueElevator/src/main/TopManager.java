@@ -34,7 +34,6 @@ public class TopManager extends Thread{
 			
 			while(true){
 				System.out.flush();
-				//here, add infinite version code.
 				requestDistributorSingle();
 				
 				wt.setText(""+(lpm.respTime + rpm.respTime));
