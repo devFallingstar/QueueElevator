@@ -43,7 +43,18 @@ public class Run extends JFrame{
 				new Main(1,spd);
 				dispose();
 			}
+		});
+		
+		m1.addActionListener(new ActionListener(){
 
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				// TODO Auto-generated method stub
+				int spd;
+				spd = Integer.parseInt(getSpeed());
+				new Main(0,spd);
+				dispose();
+			}
 		});
 		add(m1);
 		add(m2);

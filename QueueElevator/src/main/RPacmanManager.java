@@ -15,7 +15,7 @@ public class RPacmanManager extends Thread{
 	RequestQueue rq;
 	ArriveBank arriveBank;//Acumulate Arrive Board
 	FloorState floorState;
-	int timer;
+	public int timer;
 	int crashOffset[] = new int[3];
 	Main parent;
 	JButton callBtn[];
@@ -45,6 +45,8 @@ public class RPacmanManager extends Thread{
 //			preparedRequest(); 
 
 	}
+	
+
 	
 	private void preparedRequest(){
 //		rq.put(new Request("MIKLE",6,2,4));
@@ -397,6 +399,10 @@ public class RPacmanManager extends Thread{
 	public void addPacman(RPacman pm){
 		pm.start();
 		pms[index++] = pm;
+	}
+	
+	public void setEnd(boolean b){
+		this.end = b;
 	}
 
 }

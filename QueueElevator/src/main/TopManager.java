@@ -9,7 +9,7 @@ public class TopManager extends Thread{
 	private RequestQueue lpmRq;
 	private RequestQueue rpmRq;
 
-	private RequestQueue rq;
+	private static RequestQueue rq;
 
 	int mode;
 
@@ -30,22 +30,52 @@ public class TopManager extends Thread{
 		// TODO Auto-generated method stub
 		if(mode == 1){//finite
 			preparedRequest();
-			reqeustDistributor();
-		}
-		while(true){
-			System.out.flush();
-			//here, add infinite version code.
+			requestDistributor();
+			
+			while(true){
+				System.out.flush();
+				//here, add infinite version code.
+				requestDistributorSingle();
+				
+				wt.setText(""+(lpm.respTime + rpm.respTime));
+				if(lpm.end == true && rpm.end == true){
 
-			wt.setText(""+(lpm.respTime + rpm.respTime));
-			if(lpm.end == true && rpm.end == true){
+					new WaitTimeAnimation(wt).start();
+					break;
+				}
+			}
+		}else{
+			MobileDataReceiver myMobile = new MobileDataReceiver(this);
+			myMobile.start();
+			
+			while(true){
+				System.out.flush();
+				requestDistributorSingle();
+				
+				wt.setText(""+(lpm.respTime + rpm.respTime));
+				if(lpm.end == true && rpm.end == true){
 
-				new WaitTimeAnimation(wt).start();
-				break;
+					new WaitTimeAnimation(wt).start();
+					break;
+				}
 			}
 		}
 	}
 
-	private void reqeustDistributor(){
+	private void requestDistributorSingle(){
+		Request request = rq.get();
+		if(request != null){
+			int value = request.depart - request.arrive;
+			if(value > 0){//down
+				lpmRq.put(request);
+			}
+			else if(value < 0){//up
+				rpmRq.put(request);
+			}
+		}
+	}
+	
+	private void requestDistributor(){
 		while(true){
 			Request request = rq.get();
 			if(request.arrive == -1)break;//empty
@@ -128,6 +158,7 @@ public class TopManager extends Thread{
 		rq.put(new Request("ORING",50,2,5));
 
 	}
-
-
+	public void addReq(int dept, int arrive, int delay){
+		rq.put(new Request("MOBILE", rpm.timer+delay, dept, arrive));
+	}
 }

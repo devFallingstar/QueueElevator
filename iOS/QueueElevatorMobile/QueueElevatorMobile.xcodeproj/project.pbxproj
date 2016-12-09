@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD700D0D1DFA86AA00D25B09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD700D0C1DFA86AA00D25B09 /* main.m */; };
+		DD700D101DFA86AA00D25B09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD700D0F1DFA86AA00D25B09 /* AppDelegate.m */; };
+		DD700D131DFA86AA00D25B09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD700D121DFA86AA00D25B09 /* ViewController.m */; };
+		DD700D161DFA86AA00D25B09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD700D141DFA86AA00D25B09 /* Main.storyboard */; };
+		DD700D181DFA86AA00D25B09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD700D171DFA86AA00D25B09 /* Assets.xcassets */; };
+		DD700D1B1DFA86AA00D25B09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD700D191DFA86AA00D25B09 /* LaunchScreen.storyboard */; };
+		DD700D261DFA86AA00D25B09 /* QueueElevatorMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD700D251DFA86AA00D25B09 /* QueueElevatorMobileTests.m */; };
+		DD700D311DFA86AA00D25B09 /* QueueElevatorMobileUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD700D301DFA86AA00D25B09 /* QueueElevatorMobileUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD700D221DFA86AA00D25B09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD700D001DFA86AA00D25B09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD700D071DFA86AA00D25B09;
+			remoteInfo = QueueElevatorMobile;
+		};
+		DD700D2D1DFA86AA00D25B09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD700D001DFA86AA00D25B09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD700D071DFA86AA00D25B09;
+			remoteInfo = QueueElevatorMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD700D081DFA86AA00D25B09 /* QueueElevatorMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QueueElevatorMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD700D0C1DFA86AA00D25B09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD700D0E1DFA86AA00D25B09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD700D0F1DFA86AA00D25B09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD700D111DFA86AA00D25B09 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD700D121DFA86AA00D25B09 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD700D151DFA86AA00D25B09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD700D171DFA86AA00D25B09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD700D1A1DFA86AA00D25B09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD700D1C1DFA86AA00D25B09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD700D211DFA86AA00D25B09 /* QueueElevatorMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QueueElevatorMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD700D251DFA86AA00D25B09 /* QueueElevatorMobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueueElevatorMobileTests.m; sourceTree = "<group>"; };
+		DD700D271DFA86AA00D25B09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD700D2C1DFA86AA00D25B09 /* QueueElevatorMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QueueElevatorMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD700D301DFA86AA00D25B09 /* QueueElevatorMobileUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueueElevatorMobileUITests.m; sourceTree = "<group>"; };
+		DD700D321DFA86AA00D25B09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD700D051DFA86AA00D25B09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD700D1E1DFA86AA00D25B09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD700D291DFA86AA00D25B09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD700CFF1DFA86AA00D25B09 = {
+			isa = PBXGroup;
+			children = (
+				DD700D0A1DFA86AA00D25B09 /* QueueElevatorMobile */,
+				DD700D241DFA86AA00D25B09 /* QueueElevatorMobileTests */,
+				DD700D2F1DFA86AA00D25B09 /* QueueElevatorMobileUITests */,
+				DD700D091DFA86AA00D25B09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD700D091DFA86AA00D25B09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD700D081DFA86AA00D25B09 /* QueueElevatorMobile.app */,
+				DD700D211DFA86AA00D25B09 /* QueueElevatorMobileTests.xctest */,
+				DD700D2C1DFA86AA00D25B09 /* QueueElevatorMobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD700D0A1DFA86AA00D25B09 /* QueueElevatorMobile */ = {
+			isa = PBXGroup;
+			children = (
+				DD700D0E1DFA86AA00D25B09 /* AppDelegate.h */,
+				DD700D0F1DFA86AA00D25B09 /* AppDelegate.m */,
+				DD700D111DFA86AA00D25B09 /* ViewController.h */,
+				DD700D121DFA86AA00D25B09 /* ViewController.m */,
+				DD700D141DFA86AA00D25B09 /* Main.storyboard */,
+				DD700D171DFA86AA00D25B09 /* Assets.xcassets */,
+				DD700D191DFA86AA00D25B09 /* LaunchScreen.storyboard */,
+				DD700D1C1DFA86AA00D25B09 /* Info.plist */,
+				DD700D0B1DFA86AA00D25B09 /* Supporting Files */,
+			);
+			path = QueueElevatorMobile;
+			sourceTree = "<group>";
+		};
+		DD700D0B1DFA86AA00D25B09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD700D0C1DFA86AA00D25B09 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD700D241DFA86AA00D25B09 /* QueueElevatorMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD700D251DFA86AA00D25B09 /* QueueElevatorMobileTests.m */,
+				DD700D271DFA86AA00D25B09 /* Info.plist */,
+			);
+			path = QueueElevatorMobileTests;
+			sourceTree = "<group>";
+		};
+		DD700D2F1DFA86AA00D25B09 /* QueueElevatorMobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD700D301DFA86AA00D25B09 /* QueueElevatorMobileUITests.m */,
+				DD700D321DFA86AA00D25B09 /* Info.plist */,
+			);
+			path = QueueElevatorMobileUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD700D071DFA86AA00D25B09 /* QueueElevatorMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD700D351DFA86AA00D25B09 /* Build configuration list for PBXNativeTarget "QueueElevatorMobile" */;
+			buildPhases = (
+				DD700D041DFA86AA00D25B09 /* Sources */,
+				DD700D051DFA86AA00D25B09 /* Frameworks */,
+				DD700D061DFA86AA00D25B09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QueueElevatorMobile;
+			productName = QueueElevatorMobile;
+			productReference = DD700D081DFA86AA00D25B09 /* QueueElevatorMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD700D201DFA86AA00D25B09 /* QueueElevatorMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD700D381DFA86AA00D25B09 /* Build configuration list for PBXNativeTarget "QueueElevatorMobileTests" */;
+			buildPhases = (
+				DD700D1D1DFA86AA00D25B09 /* Sources */,
+				DD700D1E1DFA86AA00D25B09 /* Frameworks */,
+				DD700D1F1DFA86AA00D25B09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD700D231DFA86AA00D25B09 /* PBXTargetDependency */,
+			);
+			name = QueueElevatorMobileTests;
+			productName = QueueElevatorMobileTests;
+			productReference = DD700D211DFA86AA00D25B09 /* QueueElevatorMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD700D2B1DFA86AA00D25B09 /* QueueElevatorMobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD700D3B1DFA86AA00D25B09 /* Build configuration list for PBXNativeTarget "QueueElevatorMobileUITests" */;
+			buildPhases = (
+				DD700D281DFA86AA00D25B09 /* Sources */,
+				DD700D291DFA86AA00D25B09 /* Frameworks */,
+				DD700D2A1DFA86AA00D25B09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD700D2E1DFA86AA00D25B09 /* PBXTargetDependency */,
+			);
+			name = QueueElevatorMobileUITests;
+			productName = QueueElevatorMobileUITests;
+			productReference = DD700D2C1DFA86AA00D25B09 /* QueueElevatorMobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD700D001DFA86AA00D25B09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Fallingstar;
+				TargetAttributes = {
+					DD700D071DFA86AA00D25B09 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					DD700D201DFA86AA00D25B09 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = DD700D071DFA86AA00D25B09;
+					};
+					DD700D2B1DFA86AA00D25B09 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = DD700D071DFA86AA00D25B09;
+					};
+				};
+			};
+			buildConfigurationList = DD700D031DFA86AA00D25B09 /* Build configuration list for PBXProject "QueueElevatorMobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD700CFF1DFA86AA00D25B09;
+			productRefGroup = DD700D091DFA86AA00D25B09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD700D071DFA86AA00D25B09 /* QueueElevatorMobile */,
+				DD700D201DFA86AA00D25B09 /* QueueElevatorMobileTests */,
+				DD700D2B1DFA86AA00D25B09 /* QueueElevatorMobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD700D061DFA86AA00D25B09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD700D1B1DFA86AA00D25B09 /* LaunchScreen.storyboard in Resources */,
+				DD700D181DFA86AA00D25B09 /* Assets.xcassets in Resources */,
+				DD700D161DFA86AA00D25B09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD700D1F1DFA86AA00D25B09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD700D2A1DFA86AA00D25B09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD700D041DFA86AA00D25B09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD700D131DFA86AA00D25B09 /* ViewController.m in Sources */,
+				DD700D101DFA86AA00D25B09 /* AppDelegate.m in Sources */,
+				DD700D0D1DFA86AA00D25B09 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD700D1D1DFA86AA00D25B09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD700D261DFA86AA00D25B09 /* QueueElevatorMobileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD700D281DFA86AA00D25B09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD700D311DFA86AA00D25B09 /* QueueElevatorMobileUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD700D231DFA86AA00D25B09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD700D071DFA86AA00D25B09 /* QueueElevatorMobile */;
+			targetProxy = DD700D221DFA86AA00D25B09 /* PBXContainerItemProxy */;
+		};
+		DD700D2E1DFA86AA00D25B09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD700D071DFA86AA00D25B09 /* QueueElevatorMobile */;
+			targetProxy = DD700D2D1DFA86AA00D25B09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD700D141DFA86AA00D25B09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD700D151DFA86AA00D25B09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD700D191DFA86AA00D25B09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD700D1A1DFA86AA00D25B09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD700D331DFA86AA00D25B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD700D341DFA86AA00D25B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD700D361DFA86AA00D25B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = QueueElevatorMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Fallingstar.QueueElevatorMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QueueElevatorMobile/QueueElevatorMobile-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD700D371DFA86AA00D25B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = QueueElevatorMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Fallingstar.QueueElevatorMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QueueElevatorMobile/QueueElevatorMobile-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		DD700D391DFA86AA00D25B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QueueElevatorMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Fallingstar.QueueElevatorMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QueueElevatorMobile.app/QueueElevatorMobile";
+			};
+			name = Debug;
+		};
+		DD700D3A1DFA86AA00D25B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QueueElevatorMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Fallingstar.QueueElevatorMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QueueElevatorMobile.app/QueueElevatorMobile";
+			};
+			name = Release;
+		};
+		DD700D3C1DFA86AA00D25B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QueueElevatorMobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Fallingstar.QueueElevatorMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QueueElevatorMobile;
+			};
+			name = Debug;
+		};
+		DD700D3D1DFA86AA00D25B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QueueElevatorMobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Fallingstar.QueueElevatorMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QueueElevatorMobile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD700D031DFA86AA00D25B09 /* Build configuration list for PBXProject "QueueElevatorMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD700D331DFA86AA00D25B09 /* Debug */,
+				DD700D341DFA86AA00D25B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD700D351DFA86AA00D25B09 /* Build configuration list for PBXNativeTarget "QueueElevatorMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD700D361DFA86AA00D25B09 /* Debug */,
+				DD700D371DFA86AA00D25B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD700D381DFA86AA00D25B09 /* Build configuration list for PBXNativeTarget "QueueElevatorMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD700D391DFA86AA00D25B09 /* Debug */,
+				DD700D3A1DFA86AA00D25B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD700D3B1DFA86AA00D25B09 /* Build configuration list for PBXNativeTarget "QueueElevatorMobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD700D3C1DFA86AA00D25B09 /* Debug */,
+				DD700D3D1DFA86AA00D25B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD700D001DFA86AA00D25B09 /* Project object */;
+}
